@@ -4,55 +4,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Kat Keivens</title>
+  <link rel="shortcut icon" href="./assets/images/K_logo.png">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ 
+  <title>Kat Keivens</title>
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Kat Keivens</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <div class="title">
+    <div>
+        <img src="./assets/images/K_logo.png" class="logo" alt="logo">
+        <h1>KAT KEIVENS</h1>
+        <hr class="hr-title">
+        <h3>FRONTEND SOFTWARE ENGINEER</h3>
     </div>
-  </header>
+    <a href="#main-container"><span class="glyphicon glyphicon-chevron-down"></span></a>
+  </div>
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
 
       <img src="./assets/images/Kat_Headshot.jpg" class="auth-image" alt="Kat Keivens">
-
-      <p>I’ve been actively working in digital marketing for more than 7 years and recently made the 
-        transition to become a frontend sotware engineer.  I’m passionate about all things digital and really 
-        enjoy the logical thinking coding enables.  I’ve worked for both large corporations juggling 
-        multiple projects and clients and smaller organizations with unique marketing needs.  During that 
-        time I’ve worked on some great campaigns, put out some fires, and handled everything from strategy 
-        to execution. When I’m not coding, I’m an avid triathlete and proud to have completed 2 full Ironmans!</p>
+      
+      <h1>Hi, I'm Kat!</h1>
+      <hr class="heading">
+      <p><strong>Detail-Oriented | Collaborative | Problem Solver</strong></p>
+      <p>I made the transition to become a frontend software engineer after spending more than 
+        7 years in digital marketing.  As a developer, I enjoy the logical thinking coding enables 
+        and I’m passionate about all things digital.  I’ve worked for both large corporations 
+        juggling multiple projects/clients and smaller organizations with unique marketing needs.  
+        During that time I’ve worked on some great campaigns, put out some fires, and handled 
+        everything from strategy to execution. When I’m not coding, I’m an avid triathlete 
+        and proud to have completed 2 full Ironmans!
+      </p>
 
     </section>
+  </div>
 
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
+  <div class="container">
+    <section class="main-section">
 
-        <a href="https://github.com/katkeivens" target="blank"><img src="./assets/images/github.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/katkeivens/" target="blank"><img src="./assets/images/LinkedIn.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/8677228/kat-keivens" target="blank"><img src="./assets/images/stack.png" class="social" alt="Stack Overflow" /></a>
+     <h1>Skills</h1>
+     <hr class="heading">
+      <table>
+          <tr>
+            <td><i class="fas fa-check"></i>React.js</td>
+            <td><i class="fas fa-check"></i>Node.js</td>
+            <td><i class="fas fa-check"></i>JavaScript</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-check"></i>MongoDB</td>
+            <td><i class="fas fa-check"></i>Express.js</td>
+            <td><i class="fas fa-check"></i>jQuery</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-check"></i>Bootstrap</td>
+            <td><i class="fas fa-check"></i>HTML</td>
+            <td><i class="fas fa-check"></i>MySQL</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-check"></i>ZURB Foundation</td>
+            <td><i class="fas fa-check"></i>CSS</td>
+          </tr>
+        </table>
+
+    </section>
+  </div>
+
+  <div class="container">
+    <section class="main-section">
+        <h1>Resume</h1>
+        <hr class="heading">
+        <a href="https://docs.google.com/document/d/15NzBrzop138C4Eaog5VDF2ZcIICPFI9EfFlSWZw2ZGE/edit?usp=sharing" target="blank"><i class="fas fa-file-alt"></i> View my Resume</a>
+    </section>
+  </div>
+      
+  <div class="container">
+    <section class="main-section">
+      <h1>Projects</h1>
+      <hr class="heading">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <a href="https://aqueous-forest-79100.herokuapp.com/" target="blank"><h3>Vani-T Beauty Salon</h3>
+          <div class="work">
+            <a href="https://aqueous-forest-79100.herokuapp.com/" target="blank">
+            <img src="./assets/images/salon.png" class="project-image" alt="Salon Website">
+            <div class="project-description">
+              <h4><strong>Vani-T Beauty Salon</strong></h4>
+              <hr>
+              <h5>A salon website with user pages to schedule appointments, and admin page to view schedule.</h5>
+              <h5><strong>Tags: </strong>HTML, CSS, JS, JQuery, SQL </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-6">
+          <a href="https://intense-spire-14779.herokuapp.com/" target="blank"><h3>React Memory Game</h3>
+          <div class="work">    
+            <a href="https://intense-spire-14779.herokuapp.com/" target="blank">
+            <img src="./assets/images/memory.png" class="project-image" alt="Memory Game">
+            <div class="project-description">
+              <h4><strong>React Memory Game</strong></h4>
+              <hr>
+              <h5>Created a memory game using React.js. Click all 12 images, but don't click the same image twice.</h5>
+              <h5><strong>Tags: </strong>React.js, Node.js, JavaScript</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <a href="https://tallen904.github.io/pet.me/" target="blank"><h3>Pet.Me</h3>
+          <div class="work">
+            <a href="https://tallen904.github.io/pet.me/" target="blank">
+            <img src="./assets/images/pet.me.png" class="project-image" alt="Pet.Me">
+            <div class="project-description">
+              <h4><strong>Pet.Me</strong></h4>
+              <hr>
+              <h5>Created a pet adoption site using the PetFinder API.</h5>
+              <h5><strong>Tags: </strong>JavaScript, HTML, API, Firebase </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-6">
+          <a href="https://katkeivens.github.io/TriviaGame/" target="blank"><h3>Trivia Game</h3>
+          <div class="work">
+            <a href="https://katkeivens.github.io/TriviaGame/" target="blank">
+            <img src="./assets/images/trivia.png" class="project-image" alt="Trivia Game">
+            <div class="project-description">
+              <h4><strong>Trivia Game</strong></h4>
+              <hr>
+              <h5>Created a trivia game based around the popular movie series Star Wars.</h5>
+              <h5><b>Tags: </b>JavaScript, HTML, CSS</h5>
+            </div>
+          </a>
+          </div>
+        </div>
       </div>
     </section>
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 2018 Kat Keivens
-    </div>
-  </footer>
+  <div class="container"></div>
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2018 Kat Keivens</p>
+        <a href="mailto:katkeivens@gmail.com"><img src="./assets/images/email.png" class="social" alt="Email" /></a>
+        <a href="https://github.com/katkeivens" target="blank"><img src="./assets/images/github.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/katkeivens/" target="blank"><img src="./assets/images/LinkedIn.png" class="social" alt="LinkedIn" /></a>
+
+      </div>
+    </footer>
+  </div>
+  <script>
+
+    $(document).ready(function() {
+      $('.glyphicon').on('click', function(e) {
+        e.preventDefault()
+        var target = $('#main-container');
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1200)
+      })
+    })
+  </script>
 </body>
 
 </html>
